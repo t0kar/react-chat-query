@@ -1,0 +1,49 @@
+.message_input {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 8px;
+  padding: 8px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-right: 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 56px;
+  width: 56px;
+  background-color: var(--background-dark);
+  color: white;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.message_input__form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  flex: 1;
+}
+
+.message_input__form input {
+  font-size: var(--font-size);
+  min-width: fit-content;
+  border: none;
+  flex: 1;
+}
+
+.button_card {
+  background-color: var(--background-dark);
+  height: 56px;
+  margin-left: 8px;
+}
+
+.button {
+  color: white;
+  font-size: var(--font-size);
+  font-weight: bold;
+  white-space: nowrap;
+  flex: 1;
+}

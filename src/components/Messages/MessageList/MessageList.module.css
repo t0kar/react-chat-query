@@ -1,0 +1,14 @@
+.message_list {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-y: auto;
+}
+
+.date {
+  margin-top: 32px;
+  text-align: center;
+  list-style-type: none;
+  font-size: var(--font-size-date);
+  color: var(--text-light);
+}
