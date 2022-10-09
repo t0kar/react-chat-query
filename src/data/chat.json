@@ -1,0 +1,124 @@
+{
+  "data": {
+    "comments": [
+      {
+        "id": "1",
+        "author": {
+          "name": "Ivana Paradzikovic",
+          "picture": "img/ivana.png"
+        },
+        "text": "Hello there, so I was wondering if you know how much MB is in a GB?",
+        "timestamp": 414514740000
+      },
+      {
+        "id": "2",
+        "parent_id": "1",
+        "author": {
+          "name": "Zmaj Sipovski",
+          "picture": "img/zmaj.png"
+        },
+        "text": "Hey Ivana! Have you tried Googling that?",
+        "timestamp": 414514860000
+      },
+      {
+        "id": "3",
+        "parent_id": "1",
+        "author": {
+          "name": "Ines Grah",
+          "picture": "img/ines.png"
+        },
+        "text": "Zmaj has a point, tho I’d say its about 1000MB in a GB.",
+        "timestamp": 414516900000
+      },
+      {
+        "id": "4",
+        "author": {
+          "name": "Pero Pipovski",
+          "picture": "img/pero.png"
+        },
+        "text": "Hey guys, here is a nice web for that comoplicated conversion. https://www.convertunits.com/from/MB/to/GB",
+        "timestamp": 1626861080278
+      },
+      {
+        "id": "5",
+        "parent_id": "2",
+        "author": {
+          "name": "Davor Majkovski",
+          "picture": "img/pero.png"
+        },
+        "text": "Commenting a comment by Zmaj Sipovski",
+        "timestamp": 1626868080279
+      },
+      {
+        "id": "6",
+        "parent_id": "5",
+        "author": {
+          "name": "Dino Grobnik",
+          "picture": "img/pero.png"
+        },
+        "text": "Commenting a comment by Davor Majkovsi",
+        "timestamp": 1626862080279
+      },
+      {
+        "id": "7",
+        "parent_id": "6",
+        "author": {
+          "name": "Mario Rusini",
+          "picture": "img/pero.png"
+        },
+        "text": "Commenting a comment by Dino Grobnik",
+        "timestamp": 1626868080279
+      },
+      {
+        "id": "8",
+        "parent_id": "6",
+        "author": {
+          "name": "Ante Zdjelar",
+          "picture": "img/pero.png"
+        },
+        "text": "Commenting a comment 1 by Dino Grobnik",
+        "timestamp": 1626868090279
+      },
+      {
+        "id": "9",
+        "parent_id": "5",
+        "author": {
+          "name": "Tereza Juhić",
+          "picture": "img/ines.png"
+        },
+        "text": "Commenting a comment by Davor Majkovsi",
+        "timestamp": 1627268090279
+      },
+      {
+        "id": "10",
+        "parent_id": "3",
+        "author": {
+          "name": "Tereza Juhić",
+          "picture": "img/ines.png"
+        },
+        "text": "Test test",
+        "timestamp": 1627348090279
+      },
+      {
+        "id": "11",
+        "parent_id": "10",
+        "author": {
+          "name": "Tereza Juhić",
+          "picture": "img/ines.png"
+        },
+        "text": "Test test",
+        "timestamp": 1627248090279
+      },
+      {
+        "id": "12",
+        "parent_id": "3",
+        "author": {
+          "name": "Tereza Juhić",
+          "picture": "img/ines.png"
+        },
+        "text": "Test test test",
+        "timestamp": 1627344090279
+      }
+    ]
+  }
+}
